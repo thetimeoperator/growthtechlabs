@@ -34,7 +34,7 @@ export const PackageCard = ({ type, onClick, isSelected }: PackageCardProps) => 
     },
     marketing: {
       title: 'MARKETING PACKAGE',
-      subtitle: 'We build you a viral Tik Tok & Instagram account',
+      subtitle: 'A legitimate viral 0-1 two month growth campaign',
       price: '$20,000',
       duration: '2 Months',
       icon: Zap,

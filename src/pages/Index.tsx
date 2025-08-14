@@ -138,11 +138,10 @@ const Index = () => {
               <div className="text-center space-y-6 px-4">
                 <div className="glass p-6 sm:p-8 rounded-lg max-w-3xl mx-auto">
                   <h3 className="cyber-title text-2xl sm:text-3xl md:text-3xl text-primary mb-4">
-                    READY TO LAUNCH?
+                    WE GUARENTEE RESULTS
                   </h3>
                   <p className="cyber-text text-lg sm:text-xl md:text-xl text-muted-foreground mb-6">
-                    Join the elite operators who chose excellence. 
-                    Transform your vision into reality with GrowthTech Labs.
+                    We have been marketing in tech for 5 years... working on countless products and pages. We do this. Let's work.
                   </p>
                   <div className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6 text-base sm:text-lg">
                     <div className="flex items-center space-x-2">

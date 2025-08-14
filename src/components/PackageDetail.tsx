@@ -291,7 +291,7 @@ export const PackageDetail = ({ type, onBack, onGetStarted }: PackageDetailProps
               PROVEN RESULTS
             </h2>
             <p className="cyber-text text-sm sm:text-base text-muted-foreground max-w-2xl mx-auto">
-              Our portfolio speaks for itself. Each project represents excellence in execution and measurable success.
+              {type === 'developer' ? 'We ship fast, we ship secure, and we ship quality' : 'Our portfolio speaks for itself. Each project represents excellence in execution and measurable success.'}
             </p>
           </div>
           
