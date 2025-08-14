@@ -54,7 +54,7 @@ export const LeadForm = ({ packageType, onClose }: LeadFormProps) => {
       form.append('package_price', data.price);
       form.append('package_duration', data.duration);
 
-      const response = await fetch('https://formspree.io/f/xdkdpnry', {
+      const response = await fetch('https://formspree.io/f/mblkblwa', {
         method: 'POST',
         body: form,
         headers: {
@@ -130,7 +130,7 @@ export const LeadForm = ({ packageType, onClose }: LeadFormProps) => {
       </CardHeader>
 
       <CardContent className="p-4 sm:p-6">
-        <form onSubmit={handleSubmit} action="https://formspree.io/f/xdkdpnry" method="POST" className="space-y-4 sm:space-y-6">
+        <form onSubmit={handleSubmit} action="https://formspree.io/f/mblkblwa" method="POST" className="space-y-4 sm:space-y-6">
           {/* Email */}
           <div className="space-y-2">
             <Label htmlFor="email" className="cyber-text text-xs sm:text-sm text-foreground">
