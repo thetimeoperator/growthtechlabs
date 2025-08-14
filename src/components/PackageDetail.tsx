@@ -139,6 +139,27 @@ export const PackageDetail = ({ type, onBack, onGetStarted }: PackageDetailProps
           description: '@therealdrboxing',
           bgImage: '/dr-boxing-bg.png',
           category: 'Sports'
+        },
+        { 
+          name: 'The Politiclipper', 
+          socialStats: {
+            tiktok: '20K followers', 
+            youtube: '50K subscribers'
+          },
+          icon: Users,
+          description: '16 million views in 7 days',
+          bgImage: '/POLITCICS.png',
+          category: 'Politics'
+        },
+        { 
+          name: 'AI UGC Account', 
+          socialStats: {
+            instagram: '10K followers'
+          },
+          icon: Sparkles,
+          description: 'Generated 1100 user sign ups for AI Apply within 1 months via around 1.8 million UGC views',
+          bgImage: '/aiugc.jpeg',
+          category: 'UGC and AI UGC'
         }
       ]
     }
